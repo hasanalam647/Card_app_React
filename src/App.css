@@ -1,0 +1,86 @@
+body {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.App {
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading {
+  margin-left: 10%;
+}
+
+.cardborder {
+  width: 16rem;
+  height: 21rem;
+  border-color: rgb(255, 255, 255);
+}
+
+.text-center:hover {
+  border-color: black;
+  border-width: 2px;
+  margin: 0px;
+}
+
+.addbtn {
+  width: 14rem;
+  background-color: grey !important;
+  border-color: grey !important;
+}
+
+.addbtn:hover {
+  background-color: darkslategrey !important;
+  border-color: darkslategrey !important;
+}
+
+
+.trashcan{
+  color:#fd4646;
+  float: right;
+  margin: 12px;
+}
+
+.trashcan:hover {
+  color:black;
+}
